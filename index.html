@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imagens/icon.png" type="image/png">
+</head>
+<body>
+    <div class="principal">
+        <header>
+            <a href="/">
+                <img class="logotipo" src="./imagens/logo.png" alt="Logo do Projeto"/>
+            </a>
+        </header>
+        <main>
+            <textarea type="text" placeholder="Digite o seu texto aqui."></textarea>
+            <p class="informacao">
+                <img src="./imagens/informacoes.png" alt="Informações"/>Apenas letras minúsculas e sem acento.
+            </p>
+            <div class="botoes-acoes">
+                <button type="button" onclick="codificarTexto()" class="btn inativo" id="btnCodificar" disabled>Codificar</button>
+                <button type="button" onclick="decodificarTexto()" class="btn inativo" id="btnDecodificar" disabled>Decodificar</button>
+            </div>
+        </main>
+    </div>
+    <aside>
+        <img src="./imagens/homemlupa.png.png" alt="Imagem de um homem olhando por uma lupa."/>
+        <h2><span>Nenhuma mensagem encontrada</span></h2>
+        <p>Digite o texto que quer codificar ou decodificar.</p>
+        <span id="resultado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, a
+            aperiam quas hic tempore, odio, voluptatem amet porro deleniti cum
+            nulla! Doloremque, maiores iste? Dolores sed unde cum nihil dolore.</span>
+        <button id="btnCopiar" onclick="copiarTexto()" type="button" class="btn copiar">Copiar</button>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Alesangela Bezerra da Fonseca</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
