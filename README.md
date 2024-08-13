@@ -22,11 +22,6 @@ Este projeto é um **Decodificador de Texto** simples, que permite ao usuário c
 2. **Codificar ou Decodificar:** Clique no botão correspondente para transformar o texto.
 3. **Copiar Resultado:** Use o botão "Copiar" para copiar o resultado para a área de transferência.
 
-## Exemplo de Uso
-
-Aqui está uma captura de tela mostrando a interface principal do Decodificador de Texto:
-
-![Screenshot](https://github.com/usuario/repo/imagens/CapturaTelaInicial.png)
 
 ## Estrutura do Projeto
 
