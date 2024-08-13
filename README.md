@@ -26,7 +26,7 @@ Este projeto é um **Decodificador de Texto** simples, que permite ao usuário c
 
 Aqui está uma captura de tela mostrando a interface principal do Decodificador de Texto:
 
-![Screenshot](imagens/CapturaTelaInicial.png)
+![Screenshot](https://github.com/usuario/repo/imagens/CapturaTelaInicial.png)
 
 ## Estrutura do Projeto
 
